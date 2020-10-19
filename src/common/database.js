@@ -57,10 +57,16 @@ const updateTask = async task => {
 
 const deleteUser = async id => {
   const index = DB.findIndex(el => el.id === id);
+  tasks.forEach(el => {
+    if (el.userId === id) el.userId = null;
+  });
   if (index > -1) DB.splice(index, 1);
   return DB;
 };
 const deleteBoard = async id => {
+  tasks.forEach(el => {
+    if (el.boardId === id) el.boardId = null;
+  });
   const index = DB.findIndex(el => el.id === id);
   if (index > -1) DB.splice(index, 1);
   return DB;
