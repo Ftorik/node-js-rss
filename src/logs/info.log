@@ -1,0 +1,48 @@
+{
+  message: { query: {}, body: {}, url: '/login', method: 'GET', status: 200 },
+  level: 'info',
+  timestamp: '2020-10-19T19:53:27.843Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/favicon.ico',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-19T19:53:37.735Z'
+}
+{
+  message: { query: {}, body: {}, url: '/lol', method: 'GET', status: 200 },
+  level: 'info',
+  timestamp: '2020-10-19T19:53:52.146Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/favicon.ico',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-19T19:55:37.737Z'
+}
+{
+  message: { query: {}, body: {}, url: '/lol', method: 'GET', status: 200 },
+  level: 'info',
+  timestamp: '2020-10-19T19:55:52.150Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/favicon.ico',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-10-19T20:01:18.594Z'
+}
