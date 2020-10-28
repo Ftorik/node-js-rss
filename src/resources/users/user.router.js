@@ -30,7 +30,7 @@ router.route('/').post(async (req, res) => {
 router.route('/:id').put(async (req, res) => {
   const user = await usersService.update(
     new User({
-      id: req.params.id,
+      _id: req.params.id,
       name: req.body.name,
       login: req.body.login,
       password: req.body.password
@@ -41,8 +41,8 @@ router.route('/:id').put(async (req, res) => {
 
 router.route('/:id').delete(async (req, res) => {
   try {
-    const user = await usersService.remove(req.params.id);
-    res.json(user.map(User.toResponse));
+    await usersService.remove(req.params.id);
+    res.status(200).json(null);
   } catch (e) {
     res.status(404).send(`Error: ${e.message}`);
   }

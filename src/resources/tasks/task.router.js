@@ -4,13 +4,13 @@ const taskService = require('./task.service');
 
 router.route('/').get(async (req, res) => {
   const tasks = await taskService.getAll(req.params.boardId);
-  res.json(tasks);
+  res.json(tasks.map(Task.toResponse));
 });
 
 router.route('/:taskId').get(async (req, res) => {
   try {
     const task = await taskService.get(req.params.taskId, req.params.boardId);
-    res.json(task);
+    res.json(Task.toResponse(task));
   } catch (e) {
     res.status(404).send(`Error: ${e.message}`);
   }
@@ -27,13 +27,13 @@ router.route('/').post(async (req, res) => {
       columnId: req.body.columnId
     })
   );
-  res.json(task);
+  res.json(Task.toResponse(task));
 });
 
 router.route('/:taskId').put(async (req, res) => {
   const task = await taskService.update(
     new Task({
-      id: req.params.taskId,
+      _id: req.params.taskId,
       boardId: req.params.boardId,
       title: req.body.title,
       order: req.body.order,
