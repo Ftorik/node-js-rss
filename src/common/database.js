@@ -1,13 +1,17 @@
 const { MONGO_CONNECTION_STRING } = require('./config');
 const mongoose = require('mongoose');
-const User = require('../resources/users/user.model');
 const Board = require('../resources/boards/board.model');
 const Task = require('../resources/tasks/task.model');
 
-const users = [
-  new User({ name: 'Zalax', login: 'login1', password: 'qwerty' }),
-  new User({ name: 'Vasya', login: 'login2', password: 'qwerty123' })
-];
+const usersRepo = require('../resources/users/user.db.repository');
+
+const createAdmin = async () => {
+  const admin = { name: 'admin', login: 'admin', password: 'admin' };
+  const isAdminExisted = await usersRepo.getByLogin(admin.login);
+  if (!isAdminExisted) {
+    await usersRepo.create(admin);
+  }
+};
 
 const boards = [
   new Board({ title: 'board1', columns: [] }),
@@ -41,10 +45,10 @@ const connectToDB = cb => {
 
   const db = mongoose.connection;
   db.on('error', console.error.bind(console, 'connection error:'));
-  db.once('open', () => {
+  db.once('open', async () => {
     console.log('Connected!');
     db.dropDatabase();
-    users.forEach(user => user.save());
+    await createAdmin();
     boards.forEach(board => board.save());
     tasks.forEach(task => task.save());
     cb();

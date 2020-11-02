@@ -57,3 +57,80 @@
   level: 'info',
   timestamp: '2020-10-19T20:18:04.404Z'
 }
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/favicon.ico',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-11-02T14:00:20.533Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/favicon.ico',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-11-02T14:00:52.454Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/favicon.ico',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-11-02T14:01:58.326Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/favicon.ico',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-11-02T14:01:58.476Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/favicon.ico',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-11-02T14:02:22.833Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/favicon.ico',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-11-02T14:02:27.641Z'
+}
+{
+  message: {
+    query: {},
+    body: {},
+    url: '/favicon.ico',
+    method: 'GET',
+    status: 200
+  },
+  level: 'info',
+  timestamp: '2020-11-02T14:03:16.345Z'
+}

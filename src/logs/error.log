@@ -1,0 +1,1548 @@
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: ReferenceError: loginRouter is not defined
+        at Object.<anonymous> (E:\project\NodeRSS\node-js-rss\src\app.js:27:19)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (E:\project\NodeRSS\node-js-rss\src\server.js:3:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+        at internal/main/run_main_module.js:17:47
+  },
+  level: 'error',
+  timestamp: '2020-11-02T12:25:22.466Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: TypeError: Router.use() requires a middleware function but got a Object
+        at Function.use (E:\project\NodeRSS\node-js-rss\node_modules\express\lib\router\index.js:458:13)
+        at Function.<anonymous> (E:\project\NodeRSS\node-js-rss\node_modules\express\lib\application.js:220:21)
+        at Array.forEach (<anonymous>)
+        at Function.use (E:\project\NodeRSS\node-js-rss\node_modules\express\lib\application.js:217:7)
+        at module.exports (E:\project\NodeRSS\node-js-rss\src\resources\mainRouter.js:9:7)
+        at Object.<anonymous> (E:\project\NodeRSS\node-js-rss\src\app.js:27:1)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+        at Module.require (internal/modules/cjs/loader.js:1025:19)
+        at require (internal/modules/cjs/helpers.js:72:18)
+        at Object.<anonymous> (E:\project\NodeRSS\node-js-rss\src\server.js:3:13)
+        at Module._compile (internal/modules/cjs/loader.js:1137:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+        at Module.load (internal/modules/cjs/loader.js:985:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T12:25:41.934Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:45:17.489Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:45:22.488Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:45:27.490Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:45:32.491Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:45:37.491Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:49:10.759Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:49:15.759Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:49:20.761Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:49:25.762Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:49:30.762Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:53:29.167Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:53:34.168Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:53:39.170Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:53:44.171Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:53:49.173Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:54:58.215Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:55:03.215Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:55:08.216Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:55:13.216Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T13:55:18.216Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:11:59.461Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:20:37.436Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:21:56.679Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:22:46.594Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:33:03.941Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:33:08.018Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:33:38.377Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:34:30.285Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:35:09.079Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:35:11.670Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:35:29.919Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:35:29.968Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:35:30.003Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:39:44.986Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:39:49.985Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:39:54.988Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:39:59.990Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:40:04.991Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:42:28.297Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:42:33.297Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:42:38.298Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:42:43.299Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:42:48.301Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:46:20.706Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:46:25.707Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:46:30.708Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:46:35.710Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:46:40.712Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:51:06.331Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:51:11.332Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:51:16.333Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:51:21.335Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:51:26.336Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:54:53.507Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:54:58.507Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:55:03.510Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:55:08.510Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:55:13.510Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:57:33.183Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:57:38.185Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:57:43.187Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:57:48.189Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T14:57:53.189Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:00:09.125Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:02:05.284Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:06:06.138Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:06:11.138Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:06:16.139Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:06:21.142Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:06:26.143Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:10:48.695Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:10:53.696Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:10:58.698Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:11:03.700Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:11:08.701Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:11:43.578Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:12:18.282Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:12:22.127Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:12:39.186Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:12:40.003Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:12:40.422Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:12:53.412Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:12:58.415Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:13:03.417Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:13:08.417Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:13:13.419Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:14:32.691Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:14:37.692Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:14:42.692Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:14:47.693Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:14:52.695Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:21:32.357Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:22:01.863Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:22:06.865Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:22:11.866Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:22:16.867Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:22:21.866Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:27:32.647Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:27:33.288Z'
+}
+{
+  message: {
+    type: 'uncaughtException',
+    msg: 'Oops!',
+    stack: SyntaxError: Unexpected token o in JSON at position 1
+        at JSON.parse (<anonymous>)
+        at unhandledRejection (E:\project\NodeRSS\node-js-rss\src\logger\logger.js:52:48)
+        at process.<anonymous> (E:\project\NodeRSS\node-js-rss\src\logger\error-handler.js:22:3)
+        at process.emit (events.js:315:20)
+        at processPromiseRejections (internal/process/promises.js:209:33)
+        at processTicksAndRejections (internal/process/task_queues.js:98:32)
+  },
+  level: 'error',
+  timestamp: '2020-11-02T15:34:39.257Z'
+}

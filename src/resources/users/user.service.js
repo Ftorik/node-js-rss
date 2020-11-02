@@ -1,13 +1,13 @@
 const usersRepo = require('./user.db.repository');
 const taskService = require('../tasks/task.service');
 
-const getAll = () => usersRepo.getAll();
+const getAll = async () => await usersRepo.getAll();
 
-const get = id => usersRepo.get(id);
+const get = async id => await usersRepo.get(id);
 
-const create = user => usersRepo.create(user);
+const create = async user => await usersRepo.create(user);
 
-const update = user => usersRepo.update(user);
+const update = async user => await usersRepo.update(user);
 
 const remove = async id => {
   await usersRepo.remove(id);
